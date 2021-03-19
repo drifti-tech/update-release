@@ -1,0 +1,12 @@
+name: Update release
+description: Update github release
+runs:
+  using: node12
+  main: index.js
+inputs:
+  token:
+    description: Github token
+    required: true
+  action:
+    description: update or publish
+    required: true
